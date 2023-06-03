@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+table,
+tr,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: green;
+    opacity: 0.6;
+}
+
+th {
+    padding: 5px 10px;
+    color: red;
+    font-size: 18px;
+}
+
+.feature {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+td {
+    padding: 5px 10px;
+}
+
+.checked {
+    color: gold;
+}
+
+.buy-button {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 60px;
+    background-color: orange;
+    padding: 3px 5px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+}
+i {
+    color:red;
+    opacity:0.8;
+}
+ @media screen  and (max-width:1030px) {
+
+        table,
+        tr,
+        th,
+        td {
+            width: 700px;
+            margin-top: 50px;
+            margin-left:150px;
+        }
+
+        .buy-button {
+
+            margin-left: 0px;
+
+
+        }
+    }
+    @media screen  and (max-width:865px) {
+
+        table,
+        tr,
+        th,
+        td {
+            width: 500px;
+            margin-top: 50px;
+            margin-left:150px;
+        }
+        
+        .buy-button {
+
+            margin-left: 0px;
+
+
+        }
+    }
+    @media screen  and (max-width:675px) {
+
+        table,
+        tr,
+        th,
+        td {
+            width: 300px;
+            margin-top: 50px;
+            margin-left:100px;
+        }
+        
+        .buy-button {
+
+            margin-left: 0px;
+
+
+        }
+    }
+    @media screen  and (max-width:530px) {
+
+        table,
+        tr,
+        th,
+        td {
+            width: 200px;
+            margin-top: 50px;
+            margin-left:35px;
+        }
+    }
+    @media screen  and (max-width:450px) {
+
+        table,
+        tr,
+        th,
+        td {
+            width: 200px;
+            margin-top: 50px;
+            margin-left:5px;
+        }
+    }
+    @media screen  and (max-width:360px) {
+
+        table,
+        tr,
+        th,
+        td {
+            width: 300px;
+            margin-top: 50px;
+            margin-left:15px;
+        }
+        th {
+            padding:0;
+            color: red;
+            font-size: 14px;
+    }
+    .feature {
+        text-align: center;
+        font-weight: bold;
+        font-size:14px;
+        padding:0;
+    
+    }
+    
+    td {
+        font-size:small;
+        padding:0;
+    }
+}
